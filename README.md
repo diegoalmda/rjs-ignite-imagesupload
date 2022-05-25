@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/70728380/170376907-0a059ac1-f26a-485f-b821-517d75dbc34a.svg" alt="logo">
+  <img src=".github/logo.svg" alt="logo">
 </div>
 
 # Sobre o projeto
@@ -17,7 +17,7 @@ Essa será uma aplicação onde o principal objetivo criar Upload de imagens
 
 ### CardList
 
-<img width="1488" alt="Home screen" src="https://user-images.githubusercontent.com/70728380/170379450-bdc7c1f4-c9a7-47af-a110-08f33c3b86b7.png">
+<img width="1488" alt="Home screen" src=".github/home.png">
 No useInfiniteQuery foi montar duas seções principais:
 
 1. Uma função que recebe como parâmetro um objeto que contêm a propriedade `pageParam` (caso o parâmetro não exista, utilize como `default` o valor `null`). Esse parâmetro é utilizado no momento da requisição para chamarmos uma próxima página.
@@ -30,7 +30,7 @@ Outro passo importante a se fazer é formatar os dados recebidos do React Query 
 
 ### AddImage
 
-<img width="894" alt="Modal image" src="https://user-images.githubusercontent.com/70728380/170379940-7e697a55-8121-41e0-8c8d-2e07d40723d8.png">
+<img width="894" alt="Modal image" src=".github/model.png">
 
 Nesse componet, tem quatro etapas principais que foi implementada:
 
