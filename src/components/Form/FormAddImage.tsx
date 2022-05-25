@@ -62,7 +62,7 @@ export function FormAddImage({ closeModal }: FormAddImageProps): JSX.Element {
   const queryClient = useQueryClient();
   const mutation = useMutation(
     async (image: ImageDataProps) => {
-      await api.post('/api/images', { ...image, url: imageUrl });
+      await api.post('/images', { ...image, url: imageUrl });
     },
     {
       onSuccess: () => queryClient.invalidateQueries('images'),

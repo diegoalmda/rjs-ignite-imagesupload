@@ -24,13 +24,11 @@ type GetImagesResponse = {
 export default function Home(): JSX.Element {
 
   async function fetchImages({ pageParam = null }): Promise<GetImagesResponse> {
-    const { data } = await api.get('/api/images', {
+    const { data } = await api.get('/images', {
       params: {
         after: pageParam,
       },
     });
-
-    console.log(data)
 
     return data;
   }
@@ -48,8 +46,6 @@ export default function Home(): JSX.Element {
 
   const formattedData = useMemo(() => {
     const formatted = data?.pages.flatMap(imageData => imageData.data.flat());
-
-    console.log(formatted);
 
     return formatted;
   }, [data]);
