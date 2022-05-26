@@ -9,6 +9,9 @@ Aplicação de upload de imagens, utilizando:
 - Infinite Queries e Mutations com React Query;
 - Envio de formulário com React Hook Form;
 - Exibição de Modal e Toast com Chakra UI;
+- ImgBB;
+- FaunaDB;
+- API do Next.js;
 
 ## Principais componentes
 
