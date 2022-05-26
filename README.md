@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-Aplicação de upload de imagens, utilizando:
+Aplicação de upload de imagens com requisições para uma API Next.js que retorna os dados do FaunaDB (banco de dados) e do ImgBB (serviço de hospedagem de imagens), utilizando:
 
 - Infinite Queries e Mutations com React Query;
 - Envio de formulário com React Hook Form;
