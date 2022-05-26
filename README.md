@@ -2,7 +2,7 @@
   <img src=".github/logo.svg" alt="logo">
 </div>
 
-# Sobre o projeto
+## Sobre o projeto
 
 Aplicação de upload de imagens com requisições para uma API Next.js que retorna os dados do FaunaDB (banco de dados) e do ImgBB (serviço de hospedagem de imagens), utilizando:
 
